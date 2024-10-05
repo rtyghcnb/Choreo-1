@@ -11,30 +11,30 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"42e4e914-2b79-4586-97d0-158fe6373cff",
                         "flow":"xtls-rprx-vision"
                     }
                 ],
                 "decryption":"none",
                 "fallbacks":[
                     {
-                        "dest":3001
+                        "dest":5001
                     },
                     {
                         "path":"/vless",
-                        "dest":3002
+                        "dest":5002
                     },
                     {
                         "path":"/vmess",
-                        "dest":3003
+                        "dest":5003
                     },
                     {
                         "path":"/trojan",
-                        "dest":3004
+                        "dest":5004
                     },
                     {
                         "path":"/shadowsocks",
-                        "dest":3005
+                        "dest":35005
                     }
                 ]
             },
@@ -49,7 +49,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "id":"42e4e914-2b79-4586-97d0-158fe6373cff"
                     }
                 ],
                 "decryption":"none"
@@ -66,7 +66,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"42e4e914-2b79-4586-97d0-158fe6373cff",
                         "level":0
                     }
                 ],
@@ -96,7 +96,7 @@
             "settings":{
                 "clients":[
                     {
-                        "id":"986e0d08-b275-4dd3-9e75-f3094b36fa2a",
+                        "id":"42e4e914-2b79-4586-97d0-158fe6373cff",
                         "alterId":0
                     }
                 ]
@@ -124,7 +124,7 @@
             "settings":{
                 "clients":[
                     {
-                        "password":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "password":"42e4e914-2b79-4586-97d0-158fe6373cff"
                     }
                 ]
             },
@@ -153,7 +153,7 @@
                 "clients":[
                     {
                         "method":"chacha20-ietf-poly1305",
-                        "password":"986e0d08-b275-4dd3-9e75-f3094b36fa2a"
+                        "password":"42e4e914-2b79-4586-97d0-158fe6373cff"
                     }
                 ],
                 "decryption":"none"
